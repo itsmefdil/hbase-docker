@@ -1,0 +1,14 @@
+<configuration>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>${HBASE_ROOTDIR}</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.dataDir</name>
+        <value>${HBASE_ZOOKEEPER_DATA_DIR}</value>
+    </property>
+    <property>
+        <name>hbase.unsafe.stream.capability.enforce</name>
+        <value>${HBASE_UNSAFE_STREAM_CAPABILITY_ENFORCE}</value>
+    </property>
+</configuration>
