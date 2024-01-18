@@ -1,0 +1,12 @@
+version: "3"
+services:
+  hbase:
+    container_name: apache-hbase
+    build: .
+    ports:
+      - 16000:16000
+      - 16010:16010
+      - 16020:16020
+      - 16030:16030
+    env_file:
+      - ./.env
